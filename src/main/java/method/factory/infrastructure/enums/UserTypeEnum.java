@@ -1,13 +1,13 @@
 package method.factory.infrastructure.enums;
 
-public enum UserType {
+public enum UserTypeEnum {
 
     CLIENTE("CLIENTE"),
     LOJISTA("LOJISTA");
 
     private String type;
 
-    UserType(String type) {
+    UserTypeEnum(String type) {
         this.type = type;
     }
 
