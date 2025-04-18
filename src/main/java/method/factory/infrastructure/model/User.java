@@ -24,14 +24,14 @@ public abstract class User implements Serializable {
     private String name;
 
     @Column(nullable = false)
-    private String CpfOrCnpj;
+    private String cpfOrCnpj;
 
     @Enumerated(EnumType.STRING)
     private UserTypeEnum type;
 
     public User(String name, String cpfOrCnpj, UserTypeEnum type) {
         this.name = name;
-        this.CpfOrCnpj = cpfOrCnpj;
+        this.cpfOrCnpj = cpfOrCnpj;
         this.type = type;
     }
 }
