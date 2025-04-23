@@ -1,4 +1,4 @@
-package method.factory.controller;
+package method.factory.infrastructure.dto;
 
 import jakarta.persistence.Enumerated;
 import jakarta.validation.constraints.NotBlank;

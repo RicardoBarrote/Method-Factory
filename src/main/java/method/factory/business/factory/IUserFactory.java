@@ -1,9 +1,9 @@
 package method.factory.business.factory;
 
-import method.factory.controller.UserRequestDto;
+import method.factory.infrastructure.enums.UserTypeEnum;
 import method.factory.infrastructure.model.User;
 
 public interface IUserFactory {
 
-    User createUser(UserRequestDto dto);
+    User createUser(String name, String cpfOrCnpj, UserTypeEnum type);
 }
